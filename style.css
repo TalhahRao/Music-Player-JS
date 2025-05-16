@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(145deg, #7f055f, #55286f);
+  height: 100vh;
+  /* background-repeat: no-repeat; */
+}
+.music-player {
+  height: 90vh;
+  background: #ffe0e5;
+}
+.circle {
+  box-shadow: 0px 0px 60px rgba(255, 26, 26, 0.233);
+  padding: 4px 9px;
+  color: #f53192;
+}
+#progress {
+  -webkit-appearance: none;
+  cursor: pointer;
+  height: 5px;
+  background: #f53192;
+}
+#progress::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #f53192;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 6px solid white;
+  box-shadow: 0px 5px 5px rgba(255, 26, 26, 0.22);
+}
+
+.controls i {
+  border: 10px solid white;
+  border-radius: 50%;
+  color: #f53192;
+
+  padding: 0 2px;
+  background-color: white;
+  box-shadow: 0px 0px 60px rgba(255, 26, 26, 0.333); 
+}
+
+.controls .btn-box{
+    cursor: pointer;
+}
